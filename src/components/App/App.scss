@@ -1,0 +1,107 @@
+body {
+  background-color: #fafafa;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0 !important;
+}
+
+.my-modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 30px;
+
+  .logo {
+    img {
+      height: 60px;
+      object-fit: contain;
+    }
+    margin-bottom: 20px;
+  }
+
+  form {
+    .username,
+    .password,
+    .email {
+      width: 100%;
+      background-color: #fafafa;
+      border-radius: 2px;
+      font-size: 14px;
+      outline: none;
+      padding: 5px 10px;
+      border: 1px solid #efefef;
+      margin-bottom: 10px;
+    }
+
+    .username.placeholder,
+    .password.placeholder,
+    .email.placeholder {
+      color: #757575;
+      text-align: center;
+    }
+
+    button.btn-login {
+      width: 100%;
+      color: white;
+      padding: 5px;
+      background-color: #3797f0;
+      outline: none;
+      border-radius: 2px;
+      border: none;
+    }
+  }
+}
+
+.sorry-message {
+  text-align: center;
+  font-weight: 300;
+  color: #222;
+  padding-bottom: 10px;
+}
+
+.image-upload {
+  display: flex;
+  flex-direction: column;
+
+  textarea.caption {
+    width: 100%;
+    background-color: #fafafa;
+    border-radius: 2px;
+    font-size: 14px;
+    outline: none;
+    padding: 5px 10px;
+    border: 1px solid #efefef;
+    margin-bottom: 10px;
+  }
+
+  input {
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  button.upload-btn {
+    padding: 5px;
+    background-color: #3797f0;
+    color: white;
+    display: block;
+    outline: none;
+    border-radius: 2px;
+    border: none;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
